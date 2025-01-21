@@ -16,6 +16,13 @@ export default [
   },
   {
     ...cssPlugin.configs["flat/recommended"],
+
     files: ["**/*.css"],
-  }
+  },
+  {
+    rules: {
+      "@html-eslint/indent": ["error", 2]
+    },
+    files: ["**/*.html"]
+},
 ];
