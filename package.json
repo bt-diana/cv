@@ -1,0 +1,14 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "personal CV website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bt-diana/cv.git"
+  },
+  "author": "Butiakova Diana <butyakova01@gmail.com> (https://github.com/bt-diana)",
+  "license": "MIT"
+}
