@@ -15,16 +15,27 @@
   <body class="cv">
     <nav class="cv__navigation"></nav>
     <main class="cv__main cv-main">
-      <section class="cv-main__section summary">
-        <div class="summary__profile profile">
-          <img
-            class="profile__photo"
-            src="<%= require('./assets/profile-photo.jpg') %>"
-            alt="profile-photo"
-          >
-          <h1 class="profile__title">Diana Butiakova</h1>
-          <h2 class="profile__subtitle">Front-end Developer</h2>
+      <section class="cv-main__profile profile">
+        <img
+          class="profile__photo"
+          src="<%= require('./assets/profile-photo.jpg') %>"
+          alt="profile-photo"
+        >
+        <div class="profile__info">
+          <div class="profile__text">
+            <div>Hello, my name is</div>
+            <h1 class="profile__title">Diana Butiakova.</h1>
+            <h2 class="profile__subtitle text-body-secondary">I am a Front-end Developer.</h2>
+          </div>
+          <div class="profile__links">
+            <button class="btn btn-outline-primary">About me</button>
+            <button class="btn btn-outline-primary">Resume</button>
+            <button class="btn btn-outline-primary">Projects</button>
+          </div>
         </div>
+      </section>
+      <section class="cv-main__section summary">
+        <h3 class="summary__title section-title">About me</h3>
         <div class="summary__about about">
           <p>I am a junior front-end developer. I have solid knowledge and experience in building websites using pure <b>HTML</b> + <b>CSS</b>/<b>SASS</b> + <b>JavaScript</b>/<b>TypeScript</b> stack and <b>Webpack</b>, <b>Vite</b> as bundlers. I have experience <b>implementing pixel perfect designs from Figma mockups</b>, using <b>bootstrap</b> toolkit, providing <b>responsive and adaptive layouts</b> for tablets and mobile devices.</p>
           <p>My career began with business and system analysis. That expirience has equipped me with a customer-focused mindset, ensuring that the final product not only meets technical requirements but also aligns with business goals.</p>
