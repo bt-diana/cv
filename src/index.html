@@ -119,7 +119,45 @@
           </div>
         </div>
       </section>
-      <section class="cv-main__section projects-section" id="projects"></section>
+      <section class="cv-main__section projects-section" id="projects">
+        <div class="section__content resume">
+          <h2 class="section__title">Projects</h2>
+          <div class="section__card section-card">
+            <div class="section-card__title h5">Christmas Shop</div>
+            <div class="section-card__body project">
+              <div class="project__description">
+                Christmas Shop is a website consisting of two responsive and interactive pages. It's created using HTML, SASS, JavaScript and Vite as a bundler. The design was implemented from a Figma mockup.
+              </div>
+              <div class="project__links">
+                <a href="https://bt-diana.github.io/christmas-shop/"><i class="bi bi-box-arrow-up-right"></i></a>
+                <a href="https://github.com/bt-diana/christmas-shop"><i class="contact bi bi-github"></i></a>
+              </div>
+              <img
+                class="project__image"
+                src="<%= require('./assets/christmas-shop.png') %>"
+                alt="christmas-shop"
+              >
+            </div>
+          </div>
+          <div class="section__card section-card">
+            <div class="section-card__title h5">2048 game</div>
+            <div class="section-card__body project">
+              <div class="project__description">
+                2048 browser game on pure JS, HTML, and CSS using Webpack and MVC architecture.
+              </div>
+              <div class="project__links">
+                <a href="https://bt-diana.github.io/2048/"><i class="bi bi-box-arrow-up-right"></i></a>
+                <a href="https://github.com/bt-diana/2048"><i class="contact bi bi-github"></i></a>
+              </div>
+              <img
+                class="project__image"
+                src="<%= require('./assets/2048-game.gif') %>"
+                alt="2048"
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="cv__footer"></footer>
   </body>

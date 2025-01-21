@@ -15,7 +15,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(woff|woff2|eot|ttf|otf|txt|csv|mmdb|jpg|png|svg)$/i,
+                test: /\.(woff|woff2|eot|ttf|otf|txt|csv|mmdb|jpg|png|svg|gif)$/i,
                 type: 'asset/resource',
             },
             { test: /\.css$/, use: ['style-loader', 'css-loader'], exclude: /node_modules/ },
