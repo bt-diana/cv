@@ -8,4 +8,5 @@
     flex-wrap: wrap;
     max-width: 800px;
     margin: auto;
+    height: 100dvh;
 }
