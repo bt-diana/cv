@@ -3,9 +3,8 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
     justify-content: center;
+    gap: 40px;
 }
 
 .profile__aside {
@@ -16,6 +15,7 @@
     padding: 40px 40px 0;
     background: #F4ECE6;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 300px;
 }
 
 .profile__photo {
