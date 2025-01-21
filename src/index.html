@@ -10,17 +10,31 @@
       crossorigin="anonymous"
     >
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <title>Butiakova Diana | Front-end Developer</title>
   </head>
   <body class="cv">
     <nav class="cv__navigation"></nav>
     <main class="cv__main cv-main">
       <section class="cv-main__section profile">
-        <img
-          class="profile__photo"
-          src="<%= require('./assets/profile-photo.jpg') %>"
-          alt="profile-photo"
-        >
+        <div class="profile__aside">
+          <img
+            class="profile__photo"
+            src="<%= require('./assets/profile-photo.jpg') %>"
+            alt="profile-photo"
+          >
+          <div class="profile__header">
+            <div class="profile__name h5">Diana Butiakova</div>
+            <hr class="profile__break">
+            <div class="profile__position h5 text-muted">Front-end Developer</div>
+          </div>
+          <div class="profile__contacts contacts">
+            <i class="contact bi bi-linkedin"></i>
+            <i class="contact bi bi-github"></i>
+            <i class="contact bi bi-telegram"></i>
+            <i class="contact bi bi-envelope-fill"></i>
+          </div>
+        </div>
         <div class="profile__info">
           <div class="profile__text">
             <div>Hello, my name is</div>
@@ -32,7 +46,7 @@
             <a class="btn btn-outline-primary" href="#projects">Projects</a>
           </div>
           <div class="summary__about about">
-            <p>I am a junior front-end developer with experience in building websites using HTML, CSS/SASS, JavaScript/TypeScript, Webpack, and Vite. I specialize in creating pixel-perfect, responsive designs from Figma mockups and working with Bootstrap for adaptive layouts.</p>
+            <p>I am experienced in building websites using HTML, CSS/SASS, JavaScript/TypeScript, Webpack, and Vite. I specialize in creating pixel-perfect, responsive designs from Figma mockups and working with Bootstrap for adaptive layouts.</p>
             <p>My background in business and system analysis has given me a customer-focused approach, ensuring products meet both technical and business needs.</p>
             <p>Looking forward to collaborate!</p>  
           </div>
