@@ -40,3 +40,13 @@ h1, h2, h3, h4, h5, h6 {
 p:last-child {
   margin-bottom: unset;
 }
+
+a {
+  &:hover {
+      color: #6c757d;
+  }
+
+  &:active {
+      color: #5c636a;
+  }
+}

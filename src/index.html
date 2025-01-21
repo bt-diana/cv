@@ -16,45 +16,110 @@
   <body class="cv">
     <nav class="cv__navigation"></nav>
     <main class="cv__main cv-main">
-      <section class="cv-main__section profile">
-        <div class="profile__aside">
-          <img
-            class="profile__photo"
-            src="<%= require('./assets/profile-photo.jpg') %>"
-            alt="profile-photo"
-          >
-          <div class="profile__header">
-            <div class="profile__name h5">Diana Butiakova</div>
-            <hr class="profile__break">
-            <div class="profile__position h5 text-muted">Front-end Developer</div>
+      <section class="cv-main__section profile-section">
+        <div class="section__content profile">
+          <div class="profile__aside">
+            <img
+              class="profile__photo"
+              src="<%= require('./assets/profile-photo.jpg') %>"
+              alt="profile-photo"
+            >
+            <div class="profile__header">
+              <div class="profile__name h5">Diana Butiakova</div>
+              <hr class="profile__break">
+              <div class="profile__position h5 text-muted">Front-end Developer</div>
+            </div>
+            <div class="profile__contacts contacts">
+              <a href="https://www.linkedin.com/in/butiakova-diana" target="__blank"><i class="contact bi bi-linkedin link-opacity-100"></i></a>
+              <a href="https://github.com/bt-diana" target="__blank"><i class="contact bi bi-github"></i></a>
+              <a href="https://t.me/bt_diana" target="__blank"><i class="contact bi bi-telegram"></i></a>
+              <a href="mailto:butiakova.diana@gmail.com" target="__blank"><i class="contact bi bi-envelope-fill"></i></a>
+            </div>
           </div>
-          <div class="profile__contacts contacts">
-            <a href="https://www.linkedin.com/in/butiakova-diana" target="__blank"><i class="contact bi bi-linkedin link-opacity-100"></i></a>
-            <a href="https://github.com/bt-diana" target="__blank"><i class="contact bi bi-github"></i></a>
-            <a href="https://t.me/bt_diana" target="__blank"><i class="contact bi bi-telegram"></i></a>
-            <a href="mailto:butiakova.diana@gmail.com" target="__blank"><i class="contact bi bi-envelope-fill"></i></a>
-          </div>
-        </div>
-        <div class="profile__info">
-          <div class="profile__text">
-            <div>Hello, my name is</div>
-            <h1 class="profile__title">Diana Butiakova.</h1>
-            <h2 class="profile__subtitle text-body-secondary">I am a Front-end Developer.</h2>
-          </div>
-          <div class="profile__links">
-            <a class="btn btn-primary" href="#resume">Resume</a>
-            <a class="btn btn-outline-primary" href="#projects">Projects</a>
-          </div>
-          <div class="summary__about about">
-            <p>I am experienced in building websites using HTML, CSS/SASS, JavaScript/TypeScript, Webpack, and Vite. I specialize in creating pixel-perfect, responsive designs from Figma mockups and working with Bootstrap for adaptive layouts.</p>
-            <p>My background in business and system analysis has given me a customer-focused approach, ensuring products meet both technical and business needs.</p>
-            <p>Looking forward to collaborate!</p>  
+          <div class="profile__info">
+            <div class="profile__text">
+              <div>Hello, my name is</div>
+              <h1 class="profile__title">Diana Butiakova.</h1>
+              <h2 class="profile__subtitle text-body-secondary">I am a Front-end Developer.</h2>
+            </div>
+            <div class="profile__links">
+              <a class="btn btn-primary" href="#resume">Resume</a>
+              <a class="btn btn-outline-primary" href="#projects">Projects</a>
+            </div>
+            <div class="summary__about about">
+              <p>I am experienced in building websites using HTML, CSS/SASS, JavaScript/TypeScript, Webpack, and Vite. I specialize in creating pixel-perfect, responsive designs from Figma mockups and working with Bootstrap for adaptive layouts.</p>
+              <p>My background in business and system analysis has given me a customer-focused approach, ensuring products meet both technical and business needs.</p>
+              <p>Looking forward to collaborate!</p>  
+            </div>
           </div>
         </div>
         <div class="profile__back"></div>
       </section>
-      <section class="cv-main__section resume" id="resume"></section>
-      <section class="cv-main__section projects" id="projects"></section>
+      <section class="cv-main__section resume-section" id="resume">
+        <div class="section__content resume">
+          <h2 class="section__title">Resume</h2>
+          <div class="section__card section-card">
+            <div class="section-card__title h5">Education</div>
+            <div class="section-card__body">
+              <div>
+                <b>Bachelor's degree, 2023</b>
+                <p>
+                  Kazan (Volga region) Federal University
+                  Institute of Computational Mathematics and Information Technology,
+                  Fundamental Informatics and Information Technology
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="section__card section-card">
+            <div class="section-card__title h5">Certifications</div>
+            <div class="section-card__body">
+              <div>
+                <b><a href="https://app.rs.school/certificate/9cr8x76q" target="__blank">JS/FE PRE-SCHOOL 2024Q2 (JAVASCRIPT)</a></b>
+                <p>
+                  The Rolling Scopes School
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="section__card section-card">
+            <div class="section-card__title h5">Skills</div>
+            <div class="section-card__body">
+              <ul>
+                <li>
+                  HTML, CSS (SASS)
+                </li>
+                <li>
+                  JavaScript, TypeScript 
+                </li>
+                <li>
+                  Webpack, Vite
+                </li>
+                <li>
+                  Pixel Perfect, Responsive design
+                </li>
+                <li>
+                  Git
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section__card section-card">
+            <div class="section-card__title h5">Languages</div>
+            <div class="section-card__body">
+              <div>
+                <b>English</b>
+                <p>Upper-intermediate (B2)</p>
+              </div>
+              <div>
+                <b>Russian</b>
+                <p>Native</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cv-main__section projects-section" id="projects"></section>
     </main>
     <footer class="cv__footer"></footer>
   </body>

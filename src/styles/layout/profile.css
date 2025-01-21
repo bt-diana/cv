@@ -1,3 +1,7 @@
+.profile-section {
+    background: unset;
+}
+
 .profile {
     display: flex;
     flex-direction: row;
@@ -5,6 +9,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .profile__aside {
@@ -34,14 +39,6 @@
 
 .contact {
     font-size: 25px;
-
-    &:hover {
-        color: #6c757d;
-    }
-
-    &:active {
-        color: #5c636a;
-    }
 }
 
 .profile__info {

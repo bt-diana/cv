@@ -2,12 +2,53 @@
     min-width: 320px;
 }
 
-.cv-main__section {
+.cv-main__section {    
+    display: flex;
+    height: max-content;
+    min-height: 100dvh;
+    width: 100vw;
+    background: #E6DACE;
+}
+
+.section__content {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    padding: 40px;
+    gap: 40px;
     max-width: 800px;
     margin: auto;
-    height: 100dvh;
-    padding: 20px 0;
 }
+
+.section__card {
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #FFF;
+}
+
+.section-card__body {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.section-card__title {
+    margin-bottom: 20px;
+}
+
+.section__back {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #E6DACE;
+    z-index: -1;
+}
+
+section:before {
+    content: "";
+    background-color: #bfb;
+    top: -100px;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+ }
