@@ -1,0 +1,14 @@
+.cv {
+    min-width: 320px;
+}
+
+.cv-main__section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+}
