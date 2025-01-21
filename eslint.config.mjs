@@ -24,5 +24,5 @@ export default [
       "@html-eslint/indent": ["error", 2]
     },
     files: ["**/*.html"]
-},
+  },
 ];
