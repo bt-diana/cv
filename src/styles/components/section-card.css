@@ -1,0 +1,4 @@
+.card-item__title {
+    display: flex;
+    gap: 0.2rem;
+}
