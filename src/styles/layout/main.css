@@ -34,3 +34,11 @@ section:before {
     width: 100%;
     position: absolute;
 }
+
+li {
+    list-style-type: square;
+    &::marker {
+        color: #0d6efd;
+    }
+}
+  
