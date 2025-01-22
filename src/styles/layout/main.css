@@ -19,6 +19,13 @@
     margin: auto;
 }
 
+@media screen and (max-width: 700px) {
+    .section__content {
+        padding: 20px;
+        gap: 20px;
+    }
+}
+
 section:before {
     content: "";
     background-color: #bfb;
