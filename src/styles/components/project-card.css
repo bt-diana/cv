@@ -1,4 +1,6 @@
 .project {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -10,4 +12,10 @@
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+.project__technologies {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
