@@ -1,0 +1,24 @@
+.experience-item {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+@media screen and (max-width: 700px) {
+    .experience-item {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.experience-card__body {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.experience-item__title {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 30%;
+}
