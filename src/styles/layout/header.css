@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.localization__menu {
+    --bs-dropdown-min-width: auto;
+}
