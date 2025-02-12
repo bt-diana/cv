@@ -170,9 +170,9 @@
               <li class="card-body__item card-item skills-item">
                 Git
               </li>
-              <!-- <li class="card-body__item card-item skills-item">
+              <li class="card-body__item card-item skills-item">
                 BEM, 7-1 pattern, MVC
-              </li> -->
+              </li>
             </ul>
           </div>
           <div class="section__card section-card languages-card">
@@ -191,90 +191,92 @@
         </div>
       </section>
       <section class="cv-main__section projects-section" id="projects">
-        <div class="section__content projects">
-          <h2 class="section__title projects__title">Projects</h2>
-          <div class="section__card section-card projects-card">
-            <div class="section-card__title projects-card__title h5">Christmas Shop</div>
-            <div class="section-card__body card-body projects-card__body project">
-              <div class="project__description">
-                This project is a landing page for a Christmas ornament shop. The website consists of two responsive and interactive pages. The design was implemented from a Figma mockup using pixel-perfect technique.
-              </div>
-              <div class="project__technologies project-technologies">
-                <div class="project-technologies__title h6">Technologies Used</div>
-                <ul class="project-technologies__list technologies-list">
-                  <li class="technologies-list__item">HTML</li>
-                  <li class="technologies-list__item">SASS</li>
-                  <li class="technologies-list__item">JavaScript</li>
-                  <li class="technologies-list__item">Vite</li>
-                </ul>
-              </div>              
-              <div class="project__architecture project-architecture">
-                <div class="project-architecture__title h6">Project Architecture</div>
-                <div class="project-architecture__text">The project's styles follow BEM methodology and 7-1 pattern.</div>
-              </div>
-              <div class="project__links project-links">
-                <a
-                  class="project-links__item"
-                  href="https://bt-diana.github.io/christmas-shop/"
-                  target="_blank"
+        <div class="section__content projects-section__content">
+          <h2 class="section__title projects-section__title">Projects</h2>
+          <div class="projects">
+            <div class="section__card section-card projects-card">
+              <div class="section-card__title projects-card__title h5">Christmas Shop</div>
+              <div class="section-card__body card-body projects-card__body project">
+                <div class="project__description">
+                  This project is a landing page for a Christmas ornament shop. The website consists of two responsive and interactive pages. The design was implemented from a Figma mockup using pixel-perfect technique.
+                </div>
+                <div class="project__technologies project-technologies">
+                  <div class="project-technologies__title h6">Technologies Used</div>
+                  <ul class="project-technologies__list technologies-list">
+                    <li class="technologies-list__item">HTML</li>
+                    <li class="technologies-list__item">SASS</li>
+                    <li class="technologies-list__item">JavaScript</li>
+                    <li class="technologies-list__item">Vite</li>
+                  </ul>
+                </div>              
+                <div class="project__architecture project-architecture">
+                  <div class="project-architecture__title h6">Project Architecture</div>
+                  <div class="project-architecture__text">The project's styles follow BEM methodology and 7-1 pattern.</div>
+                </div>
+                <div class="project__links project-links">
+                  <a
+                    class="project-links__item"
+                    href="https://bt-diana.github.io/christmas-shop/"
+                    target="_blank"
+                  >
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                  <a
+                    class="project-links__item"
+                    href="https://github.com/bt-diana/christmas-shop"
+                    target="_blank"
+                  >
+                    <i class="contact bi bi-github"></i>
+                  </a>
+                </div>
+                <img
+                  class="project__image"
+                  src="<%= require('./assets/images/christmas-shop.png') %>"
+                  alt="christmas-shop"
                 >
-                  <i class="bi bi-box-arrow-up-right"></i>
-                </a>
-                <a
-                  class="project-links__item"
-                  href="https://github.com/bt-diana/christmas-shop"
-                  target="_blank"
-                >
-                  <i class="contact bi bi-github"></i>
-                </a>
               </div>
-              <img
-                class="project__image"
-                src="<%= require('./assets/images/christmas-shop.png') %>"
-                alt="christmas-shop"
-              >
             </div>
-          </div>
-          <div class="section__card section-card project-card">
-            <div class="section-card__title projects-card__title h5">2048 game</div>
-            <div class="section-card__body projects-card__body project">
-              <div class="project__description">
-                This project is an implementation of the 2048 game, designed with a focus on smooth user experience and enhanced by CSS animations.
-              </div>
-              <div class="project__technologies project-technologies">
-                <div class="project-technologies__title h6">Technologies Used</div>
-                <ul class="project-technologies__list technologies-list">
-                  <li class="technologies-list__item">HTML</li>
-                  <li class="technologies-list__item">CSS</li>
-                  <li class="technologies-list__item">JavaScript</li>
-                  <li class="technologies-list__item">Webpack</li>
-                </ul>
-              </div>
-              <div class="project__architecture project-architecture">
-                <div class="project-architecture__title h6">Project Architecture</div>
-                <div class="project-architecture__text">The project follows the Model-View-Controller (MVC) pattern and BEM methodology.</div>
-              </div>
-              <div class="project__links project-links">
-                <a
-                  class="project-links__item"
-                  href="https://bt-diana.github.io/2048/"
-                  target="_blank"
+            <div class="section__card section-card projects-card">
+              <div class="section-card__title projects-card__title h5">2048 game</div>
+              <div class="section-card__body projects-card__body project">
+                <div class="project__description">
+                  This project is an implementation of the 2048 game, designed with a focus on smooth user experience and enhanced by CSS animations.
+                </div>
+                <div class="project__technologies project-technologies">
+                  <div class="project-technologies__title h6">Technologies Used</div>
+                  <ul class="project-technologies__list technologies-list">
+                    <li class="technologies-list__item">HTML</li>
+                    <li class="technologies-list__item">CSS</li>
+                    <li class="technologies-list__item">JavaScript</li>
+                    <li class="technologies-list__item">Webpack</li>
+                  </ul>
+                </div>
+                <div class="project__architecture project-architecture">
+                  <div class="project-architecture__title h6">Project Architecture</div>
+                  <div class="project-architecture__text">The project follows the Model-View-Controller (MVC) pattern and BEM methodology.</div>
+                </div>
+                <div class="project__links project-links">
+                  <a
+                    class="project-links__item"
+                    href="https://bt-diana.github.io/2048/"
+                    target="_blank"
+                  >
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                  <a
+                    class="project-links__item"
+                    href="https://github.com/bt-diana/2048"
+                    target="_blank"
+                  >
+                    <i class="contact bi bi-github"></i>
+                  </a>
+                </div>
+                <img
+                  class="project__image"
+                  src="<%= require('./assets/images/2048-game.gif') %>"
+                  alt="2048"
                 >
-                  <i class="bi bi-box-arrow-up-right"></i>
-                </a>
-                <a
-                  class="project-links__item"
-                  href="https://github.com/bt-diana/2048"
-                  target="_blank"
-                >
-                  <i class="contact bi bi-github"></i>
-                </a>
               </div>
-              <img
-                class="project__image"
-                src="<%= require('./assets/images/2048-game.gif') %>"
-                alt="2048"
-              >
             </div>
           </div>
         </div>
@@ -282,7 +284,7 @@
     </main>
     <footer class="cv__footer footer">
       <div class="footer__content footer-content">
-        <div class="footer-content__copyright">© 2025 by Diana Butiakova.</div>
+        <div class="footer-content__copyright">Made by Diana Butiakova, 2025</div>
         <div class="footer-content__contacts contacts">
           <a
             class="contacts__item"
