@@ -1,3 +1,9 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .project {
     display: flex;
     flex-direction: column;
