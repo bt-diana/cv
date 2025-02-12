@@ -1,7 +1,14 @@
 .experience-item {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 40px;    
+    border-bottom: 1px solid var(--bs-secondary-color);
+    padding-bottom: 20px;
+}
+
+.experience-item:last-child {
+    border-bottom: unset;
+    padding-bottom: unset;
 }
 
 @media screen and (max-width: 700px) {
