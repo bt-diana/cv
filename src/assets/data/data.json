@@ -48,8 +48,7 @@
     ".skills-item:nth-child(5)": "React, Redux, Axios",
     ".skills-item:nth-child(6)": "Git",
     ".skills-item:nth-child(7)": "Figma-to-code, Pixel-perfect, Responsive web design",
-    ".skills-item:nth-child(8)": "BEM, 7-1 pattern, MVC",
-    ".profile__download-cv": "Download CV"
+    ".skills-item:nth-child(8)": "BEM, 7-1 pattern, MVC"
   },
   "ru": {
     "title": "Диана Бутякова | Front-end разработчик",
@@ -100,7 +99,6 @@
     ".skills-item:nth-child(5)": "React, Redux, Axios",
     ".skills-item:nth-child(6)": "Git",
     ".skills-item:nth-child(7)": "Figma-to-code, Pixel-perfect, Адаптивный дизайн",
-    ".skills-item:nth-child(8)": "БЭМ, Паттерн 7-1, MVC",
-    ".profile__download-cv": "Скачать CV"
+    ".skills-item:nth-child(8)": "БЭМ, Паттерн 7-1, MVC"
   }
 }

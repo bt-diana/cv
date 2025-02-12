@@ -5,4 +5,11 @@ export default function filloutDocument(langCode) {
         const elements = document.querySelectorAll(selector);
         elements?.forEach((element) => {element.innerText = text});
     })
+
+    const linksCV = document.querySelectorAll("[class^='profile__download-cv'");
+    console.log(linksCV)
+    linksCV.forEach((linkCV) => {linkCV.style = "display: none"});
+
+    const linkCV = document.querySelector(`.profile__download-cv--${langCode}`);
+    linkCV.style = "display: block";
 }
