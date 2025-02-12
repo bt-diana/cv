@@ -7,11 +7,6 @@ body {
   padding: unset;
 }
 
-a {
-  color: unset;
-  text-decoration: none; 
-}
-
 @media (hover: hover) {
   a:hover {
     color: unset;

@@ -18,6 +18,11 @@
     display: flex;
     gap: 20px;
     align-items: center;
+
+    * {
+        color: unset;
+        text-decoration: none; 
+    }
 }
 
 .project__technologies {
