@@ -1,0 +1,8 @@
+.skills-card__body {
+    display: block;
+    margin: 0 20px;
+}
+
+.skills-item {
+    display: list-item;
+}
