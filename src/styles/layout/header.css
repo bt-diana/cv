@@ -1,9 +1,17 @@
 .header {
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
     position: absolute;
-    width: 100%;
+    top: 40px;
+    right: 40px;
+
+    @media screen and (max-width: 700px) {
+        & {
+            display: flex;
+            justify-content: flex-end;
+            position: absolute;
+            top: unset;
+            right: 20px;
+        }
+    }
 }
 
 .localization__menu {
