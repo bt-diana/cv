@@ -1,8 +1,8 @@
 @import url("./base/normalize.css");
 @import url("./layout/header.css");
 @import url("./layout/main.css");
-@import url("./layout/profile.css");
 @import url("./layout/footer.css");
+@import url("./components/profile.css");
 @import url("./components/contsacts.css");
 @import url("./components/section-card.css");
 @import url("./components/expirience-card.css");
