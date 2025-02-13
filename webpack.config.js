@@ -7,7 +7,7 @@ module.exports = {
         bundle: path.resolve(__dirname, 'src\/scripts\/index.js'),
     },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'cv'),
         filename: 'index.js',
         clean: true,
     },
@@ -25,7 +25,11 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: path.resolve(__dirname, 'src/\index.html'),
+            template: path.resolve(__dirname, 'src/\en.html'),
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'ru/\index.html',
+            template: path.resolve(__dirname, 'src/\/ru.html'),
         }),
     ],
 };
