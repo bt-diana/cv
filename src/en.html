@@ -49,11 +49,11 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Language
+                  ENG
                 </button>
                 <ul class="localization__menu localization-menu dropdown-menu">
                   <li class="localization-menu__item dropdown-item">
-                    <a data-lang="en" href="/cv/">ENG</a>
+                    <a data-lang="en">ENG</a>
                   </li>
                   <li class="localization-menu__item dropdown-item">
                     <a data-lang="ru" href="/cv/ru/">РУС</a>
@@ -66,8 +66,11 @@
               <h1 class="profile__title">Diana Butiakova.</h1>
               <h2 class="profile__subtitle text-body-secondary">I am a Front-end Developer.</h2>
             </div>
-            <a class="profile__download-cv--en link-opacity-100" href="<%= require('./assets/data/cv-en.pdf') %>" download="Diana Butiakova - Front-end Developer.pdf">Download CV</a>
-            <a class="profile__download-cv--ru link-opacity-100" href="<%= require('./assets/data/cv-ru.pdf') %>" download="Диана Бутякова - Front-end разработчик.pdf">Скачать CV</a>
+            <a
+              class="profile__download-cv--en link-opacity-100"
+              href="<%= require('./assets/data/cv-en.pdf') %>"
+              download="Diana Butiakova - Front-end Developer.pdf"
+            >Download CV</a>
             <div class="profile__links profile-links">
               <a class="btn btn-primary profile-links__resume" href="#resume">Resume</a>
               <a class="btn btn-outline-primary profile-links__projects" href="#projects">Projects</a>
