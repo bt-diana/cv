@@ -19,32 +19,11 @@
     background: #F4ECE6;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     max-width: 300px;
-    animation: smooth-appear-vertical 1s ease forwards;
-    opacity: 0;
-    transform: translateY(50%);
 }
 
 @media screen and (max-width: 700px) {
     .profile__aside {
         gap: 20px;
-        animation: smooth-appear-horizontal 1s ease forwards;
-        transform: translateX(-50%);
-    }
-}
-
-@keyframes smooth-appear-vertical {
-    to{
-      bottom: 20px;
-      opacity: 1;
-      transform: translateY(0);
-    }
-}
-
-@keyframes smooth-appear-horizontal {
-    to{
-      bottom: 20px;
-      opacity: 1;
-      transform: translateX(0);
     }
 }
 
