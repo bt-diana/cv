@@ -1,0 +1,4 @@
+.certifications-card__body {
+    display: flex;
+    flex-direction: column;
+}
